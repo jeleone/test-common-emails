@@ -44,4 +44,10 @@ public class EmailTest {
 		email.addHeader("Kenny", "97");
 	}
 	
+	@Test
+	public void testFrom() throws Exception {
+	
+		email.setFrom("jeleone@umich.edu");
+	}
+	
 }
