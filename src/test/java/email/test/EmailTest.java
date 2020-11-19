@@ -37,4 +37,11 @@ public class EmailTest {
 	public void testAddcc() throws EmailException {
 		email.addCc("test@abc.com");
 	}
+	
+	@Test
+	public void testHeader() throws Exception {
+	
+		email.addHeader("Kenny", "97");
+	}
+	
 }
