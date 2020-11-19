@@ -50,4 +50,9 @@ public class EmailTest {
 		email.setFrom("jeleone@umich.edu");
 	}
 	
+	@Test
+	public void testReply() throws Exception {
+	
+		email.addReplyTo("tenshinhan@chaozu.com", "Crane");
+	}
 }
