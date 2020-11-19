@@ -62,5 +62,11 @@ public class EmailTest {
 		email.getHostName();
 	}
 	
+	@Test
+	public void testDate() throws Exception {
+		
+		email.getSentDate();
+	}
+	
 	
 }
