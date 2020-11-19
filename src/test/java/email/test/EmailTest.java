@@ -55,4 +55,12 @@ public class EmailTest {
 	
 		email.addReplyTo("tenshinhan@chaozu.com", "Crane");
 	}
+	
+	@Test
+	public void testHost() throws Exception {
+		
+		email.getHostName();
+	}
+	
+	
 }
