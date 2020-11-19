@@ -68,5 +68,9 @@ public class EmailTest {
 		email.getSentDate();
 	}
 	
-	
+	@Test
+	public void testTimeout() throws Exception {
+		
+		email.getSocketConnectionTimeout();
+	}
 }
